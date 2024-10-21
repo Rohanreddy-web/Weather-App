@@ -1,0 +1,86 @@
+.card {
+    height: 10vh;
+    width: 26vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10PX;
+    background: linear-gradient(rgb(70, 70, 181),rgba(76, 182, 111, 0.75));
+    position: relative;
+    box-shadow: 8px 8px 15px 6px rgba(0, 0, 0, 0.422);
+}
+
+input {
+    height: 48%;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.14);
+
+}
+
+button {
+    height: 34px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 2px;
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+input::placeholder {
+    font-size: 18px;
+}
+
+h2 {
+    width: 16vw;
+    height: 5vh;
+   margin: auto;
+
+}
+.im1{
+    width: 20vw;
+    height: 15vh;
+   margin-left: 50px;
+}
+.div{
+    position: absolute;
+    top:20vh;
+
+}
+.div1{
+    display: flex;
+    flex-flow: column wrap;
+    height: 40vh;
+    width: 25vw;
+
+}
+h1{
+    color: red;
+}
+body{
+    background-color: rgba(11, 125, 224, 0.218);
+}
+#cl{
+    border-radius: 60px;
+
+}
+h2{
+    color: black;
+}
+span{
+    font-size: 30px;
+    position: relative;
+    bottom: 15px;
+    font-weight: 600;
+}
+#id{
+    font-size: 28px;
+    font-weight: 800;
+    color: whitesmoke;
+    
+/* we can write the media_quary for more responsive web page */
+@media only screen and (max-width:720px){
+    body{
+        background-color: red;
+    }
+}
